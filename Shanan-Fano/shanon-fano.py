@@ -1,4 +1,3 @@
-# Function to perform Shannon-Fano encoding
 def shannon_fano_recursive(symbols_freq, code=''):
     if len(symbols_freq) == 1:
         return {symbols_freq[0][0]: code}
@@ -19,11 +18,9 @@ def shannon_fano_recursive(symbols_freq, code=''):
     left_part.update(right_part)
     return left_part
 
-# Function to encode the message
 def encode_message(message, codes):
     return ''.join(codes[char] for char in message)
 
-# Function to decode the encoded message
 def decode_message(encoded_message, codes):
     reverse_codes = {v: k for k, v in codes.items()}
     current_code = ''
@@ -37,41 +34,34 @@ def decode_message(encoded_message, codes):
 
     return decoded_message
 
-# Main code to handle file I/O
 def main():
-    # Reading the input file
-    input_file = 'input_message.txt'
+   
+    input_file = input("Enter the text file name: ")
     with open(input_file, 'r') as file:
-        message = file.read().strip()  # Stripping extra spaces or newlines
-    
+        message = file.read().strip() 
+    print("Original message: ", message)
     # Calculate frequency of each symbol
     symbols_freq = {char: message.count(char) for char in set(message)}
     symbols_freq = sorted(symbols_freq.items(), key=lambda x: x[1], reverse=True)
 
-    # Generate Shannon-Fano codes
     codes = shannon_fano_recursive(symbols_freq)
 
-    # Encode the message
     encoded_message = encode_message(message, codes)
     print("Encoded Message: ", encoded_message)
-    # Save the encoded message to a file
     encoded_file = 'encoded_message.fano'
     with open(encoded_file, 'w') as file:
         file.write(encoded_message)
 
     print(f"Encoded message saved to {encoded_file}")
 
-    # Decode the message
     decoded_message = decode_message(encoded_message, codes)
     print("Decoded Message: ", decoded_message)
-    # Save the decoded message to a file
     decoded_file = 'decoded_message.txt'
     with open(decoded_file, 'w') as file:
         file.write(decoded_message)
 
     print(f"Decoded message saved to {decoded_file}")
 
-    # Check if decoded message matches the original message
     if message == decoded_message:
         print("Success! The decoded message matches the original.")
     else:

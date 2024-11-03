@@ -1,7 +1,7 @@
 import wave
 import numpy as np
 
-def create_sine_wave(filename, duration=2, frequency=440, sample_rate=44100):
+def create_sine_wave(filename, duration=0.5, frequency=440, sample_rate=44100):
     """Create a sine wave audio file."""
     # Generate the time values
     t = np.linspace(0, duration, int(sample_rate * duration), endpoint=False)

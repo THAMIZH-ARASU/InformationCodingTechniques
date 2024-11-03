@@ -1,1 +1,1 @@
-ABABABA
+Hello, World! This is a test message for LZW Encoding. It includes numbers like 12345 and special symbols: @, #, $, %, ^, &.

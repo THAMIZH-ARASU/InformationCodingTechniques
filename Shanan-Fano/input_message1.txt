@@ -1,0 +1,1 @@
+Hello, World! This is a test message for Shannon-Fano Encoding. It includes numbers like 12345 and special symbols: @, #, $, %, ^, &.

@@ -1,1 +1,1 @@
-AARYAN
+Arithmetic encoding is interesting! This message contains numbers like 12345 and special symbols: $, %, &, *.
