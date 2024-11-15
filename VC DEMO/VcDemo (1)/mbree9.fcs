@@ -1,0 +1,33 @@
+/******************************************************************************
+*
+*	Name          : mbree9.fcs
+*
+*	Purpose	      : Filter descriptor
+*
+*	Description   : 9-taps QMF fir filter as defined by :
+*
+*	Author        : Marcel Breeuwer, VCIP '90 "title ...."
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : Bosveld, July 1991 
+*
+*	Revision date : 
+*
+*******************************************************************************/
+FIRQMF	
+1
+9
+  1.5625000E-02
+ -3.1250000E-02
+ -5.4687500E-02
+  0.2812500    
+  0.5781250    
+  0.2812500    
+ -5.4687500E-02
+ -3.1250000E-02
+  1.5625000E-02
+1
+1.

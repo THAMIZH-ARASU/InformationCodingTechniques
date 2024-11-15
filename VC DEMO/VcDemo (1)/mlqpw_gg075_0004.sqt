@@ -1,0 +1,29 @@
+/****************************************************************************
+*
+*	Name          : mlqpw_GG075_0004.sqt
+*
+*	Purpose	      : Quantizer descriptor
+*
+*	Description   : Max Lloyd quantizer with 4 levels
+*
+*	Optimized for : Generalized Gaussian c=0.75
+*
+*	Author        : P.H Westerink
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : F. Bosveld, May 1991
+*
+*	Revision date :
+*
+****************************************************************************/
+SQ
+    1.72916710
+    0.21264684
+4
+ -2.07240796    0.00000000    0.07638901 010
+ -0.39350733   -1.23295760    0.42361099 1
+  0.39350733    0.00000000    0.42361099 00
+  2.07240796    1.23295760    0.07638901 011

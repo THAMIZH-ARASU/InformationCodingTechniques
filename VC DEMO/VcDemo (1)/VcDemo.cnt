@@ -1,0 +1,53 @@
+:Base VcDemo.hlp
+:Title VcDemo Image and Video Compression Learning Tool
+1 About VcDemo
+2 Overview of VcDemo=HIDR_MAINFRAME
+2 Quick tour=HIDD_QUICKTOUR
+2 About the VcDemo project=HNOID_PROJECT
+2 Conditions of usage=HIDD_CONDITIONSUSAGE
+2 Solving problems=HNOID_PROBLEM
+1 Operating VcDemo
+2 Quick tour=HIDD_QUICKTOUR
+2 Opening images, sequences and bit streams=HID_IMAGE_OPEN
+2 Saving images and sequences=HID_DIB_SAVE_AS
+2 Information about images shown=HIDD_IMAGEINFO
+2 Enlarging images=HNOID_ENLARGINGIMAGES
+2 Subtracting images=HID_DIBPOPUP_PUTONSTACK
+2 Using the decoded image as start image=HID_DIBPOPUP_SETSTART
+2 Saving (bit rate,SNR) pairs=HIDD_RDSTORING
+2 Plotting (bit rate,SNR) graphs=HNOID_PLOTRDPAIR
+2 Tips and tricks=HNOID_TIPSANDTRICKS
+2 VcDemo settings=HIDD_PROPDLG
+1 Subsampling
+2 Subsampling interface and options=HIDD_SSDLG
+1 Pulse Coded Modulation (PCM)
+2 PCM interface and options=HIDD_PCMDLG
+1 Differential PCM (DPCM)
+2 DPCM interface and options=HIDD_DPCMDLG
+1 Vector Quantization (VQ)
+2 VQ interface and options=HIDD_VQDLG
+2 Codebook design=HIDD_CODEBOOKDLG
+1 Fractal Image Coding
+2 Fractal coding interface and options=HIDD_FICDLG
+1 Discrete Cosine Transform (DCT) Coding
+2 DCT interface and options=HIDD_DCTDLG
+1 JPEG Standard
+2 JPEG interface and options=HIDD_JPGDLG
+1 Subband Coding (SBC)
+2 SBC interface and options=HIDD_SBCDLG
+1 Set Partitioning In Hierarchical Trees (SPIHT) Coding
+2 SPIHT interface and options=HIDD_SPIHTDLG
+1 Embedded Zero Tree Wavelet (EZW) Coding
+2 EZW interface and options=HIDD_EZWDLG
+1 JPEG2000 Standard
+2 JPEG2000 interface and options=HIDD_JPEG2000DLG
+1 Video Player
+2 Video Player interface and options=HIDD_VPLAYDLG
+1 Motion Estimation
+2 Motion estimation interface and options=HIDD_MEDLG
+1 MPEG Video Compression
+2 MPEG video encoder interface and options=HIDD_MPGENCDLG
+2 MPEG video decoder interface and options=HIDD_MPGDECDLG
+1 H.264 Video Compression
+2 H.264 video encoder interface and options=HIDD_H264ENCDLG
+2 H.264 video decoder interface and options=HIDD_H264DECDLG

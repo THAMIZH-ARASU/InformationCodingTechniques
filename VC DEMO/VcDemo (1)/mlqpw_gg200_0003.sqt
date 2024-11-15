@@ -1,0 +1,28 @@
+/****************************************************************************
+*
+*	Name          : mlqpw_GG200_0003.sqt
+*
+*	Purpose	      : Quantizer descriptor
+*
+*	Description   : Max Lloyd quantizer with 3 levels
+*
+*	Optimized for : Generalized Gaussian c=2.00
+*
+*	Author        : P.H Westerink
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : F. Bosveld, May 1991
+*
+*	Revision date :
+*
+****************************************************************************/
+SQ
+    1.54058683
+    0.19017351
+3
+ -1.22394884    0.00000000    0.27029341 00
+  0.00000000   -0.61197442    0.45941320 1
+  1.22394884    0.61197442    0.27029341 01

@@ -1,0 +1,38 @@
+/******************************************************************************
+*
+*	Name          : vettpr9ba.fcs
+*
+*	Purpose	      : Filter descriptor
+*
+*	Description   : 9-taps 2 dimensional QMF fir filter as defined by :
+*
+*	Author        : Vetterli, Image Communication Vol2 No 3. October 1990
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      :This filter has been scaled such that 
+*			
+*		      //H          (z1,z2) = //H        (z1,z2)=0.4239
+*		         vettpr25ba	        vettpr9ba 
+*
+*	Author, date  : Bosveld, May 1991 
+*
+*	Revision date : 
+*
+*******************************************************************************/
+FIRQMF	
+2
+3
+3
+   0.00000
+   0.20590
+   0.00000
+   0.20590
+  -0.82359
+   0.20590
+   0.00000
+   0.20590
+   0.00000
+1
+1
+1.0

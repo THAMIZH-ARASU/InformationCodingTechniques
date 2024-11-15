@@ -1,0 +1,28 @@
+/****************************************************************************
+*
+*	Name          : mlqpw_GG035.sqp
+*
+*	Purpose	      : Quantizer performance table 
+*
+*	Description   : Max Lloyd quantizers 
+*
+*	Optimized for : Generalized Gaussian c=0.35
+*
+*	Author        : P.H Westerink
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : F. Bosveld, May 1991
+*
+*	Revision date :
+*
+****************************************************************************/
+SQ
+5
+    3     1.05886769    0.42164850
+    7     1.45601118    0.13899270
+   15     2.10423541    0.04119609
+   31     2.65878534    0.01596131
+   63     3.11648870    0.00980957

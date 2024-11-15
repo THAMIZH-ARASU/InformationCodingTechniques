@@ -1,0 +1,30 @@
+/****************************************************************************
+*
+*	Name          : mlqpw_GG200_flc.sqp
+*
+*	Purpose	      : Quantizer performance table 
+*
+*	Description   : Max Lloyd quantizers 
+*
+*	Optimized for : Generalized Gaussian c=2.00
+*
+*	Author        : P.H Westerink
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : F. Bosveld, May 1991
+*
+*	Revision date :
+*
+****************************************************************************/
+SQ
+7
+    2     1.00     0.36338037
+    3     2.00     0.19017351
+    7     3.00     0.04399881
+   15     4.00     0.01084730
+   31     5.00     0.00276883
+   63     6.00     0.00069076
+  128     7.00     0.00016780

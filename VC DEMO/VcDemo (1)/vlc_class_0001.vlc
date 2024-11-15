@@ -1,0 +1,39 @@
+/****************************************************************************
+*
+*	Name          : test.vlc
+*
+*	Purpose	      : Variable Length Code descriptor
+*
+*	Description   : Huffman code
+*
+*	Optimized for : 
+*
+*	Author        : F. Bosveld
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : F. Bosveld, June 1992
+*
+*	Revision date :
+*
+****************************************************************************/
+HUFF
+11
+3
+4
+0 1 3 6
+ 1        4   10
+ 1       42   11
+ 1       52   010
+ 1       21   011
+ 1        4   0010
+ 1       42   0011
+ 2   3   52   00011
+ 2   4   21   00010
+ 2   1    4   000011
+ 2   2   42   000010
+ 2   3   52   000001
+
+

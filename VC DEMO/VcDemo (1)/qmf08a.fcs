@@ -1,0 +1,30 @@
+/******************************************************************************
+*
+*	Name          : qmf08a.fcs
+*
+*	Purpose	      : Filter descriptor
+*
+*	Description   : 8-taps QMF fir filter as defined by :
+*
+*	Author        : Johnston, ICASSP '80 "title ...."
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : Bosveld, May 1991 
+*
+*******************************************************************************/
+FIRQMF
+1	
+8
+  9.3871504E-03
+ -7.0651829E-02
+  6.9428273E-02
+  0.4899808    
+  0.4899808    
+  6.9428273E-02
+ -7.0651829E-02
+  9.3871504E-03
+1
+1.

@@ -1,0 +1,24 @@
+/******************************************************************************
+*
+*	Name          : qmf1.fcs
+*
+*	Purpose	      : Filter descriptor
+*
+*	Description   : 2-taps fir filter
+*
+*	Author        : Unknown
+*
+*	Directory     : $SBCTABLES
+*
+*	Remarks	      : 
+*
+*	Author, date  : Bosveld, October 1991 
+*
+*****************************************************************************/
+FIRQMF
+1	
+2
+  1.0
+  0.0
+1
+1.
